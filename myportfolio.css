@@ -1,0 +1,33 @@
+html{
+    background-color: black;
+}
+#menu li{
+    list-style: none;
+}
+.selfpic{
+    max-width: 6000px; 
+    
+}
+.descdiv{
+    font-size: 20px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.certifdiv{
+    width:80%;
+}
+.certifdiv:hover .arrowspan{
+    font-size: 1.1em; 
+}
+.projectdiv:hover .arrowspan{
+    font-size: 1.2em;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4c1d95; 
+  border-radius: 3px; 
+}
