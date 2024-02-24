@@ -4,10 +4,7 @@ html{
 #menu li{
     list-style: none;
 }
-.selfpic{
-    max-width: 6000px; 
-    
-}
+
 .descdiv{
     font-size: 20px;
     max-width: 100%;
@@ -22,6 +19,20 @@ html{
 .projectdiv:hover .arrowspan{
     font-size: 1.2em;
 }
+.picdiv{
+    width: 30%;
+}
+.selfpic{
+    width:70%;
+    height:auto;
+}
+.descdiv{
+    width:70%;
+}
+#fs-frm-inputs td {
+    width: 50%; 
+}
+
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -30,4 +41,38 @@ html{
 ::-webkit-scrollbar-thumb {
   background: #4c1d95; 
   border-radius: 3px; 
+}
+li a.active{
+    color:#4c1d95;
+}
+.webdev {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+}
+@media screen and (min-width: 768px) {
+    .years {
+        float: left; 
+        width: 20%;
+        margin-right: 3%;
+        margin-left:2%;
+    }
+    
+    .paragraph {
+        overflow: hidden; 
+        width:50%;
+    }
+}
+
+.skill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
+.skill {
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: 10%;
 }

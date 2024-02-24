@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const projectData = [
+        
         {
             link: "https://github.com/jenniferfk/bmi-calculator-react.git",
             image: "./pics/bmi-calc-project.jpg",
@@ -39,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function generateProjectHTML(project) {
         return `
-            <div class="col-md-3 text-center mr-16">
+            <div class="projectbigdiv col-md-3 text-center mr-16">
                 <a href="${project.link}" class="nolink">
-                    <div class="projectdiv calcdiv hover:bg-purple-900 hover:bg-opacity-60 rounded w-80 justify-center items-center flex flex-col justify-center items-center text-center">
-                        <header><img src="${project.image}" alt="${project.alt}" class="w-60 img-fluid mt-10 rounded-md border-2" /></header>
-                        <div class="paragraph text-base">
+                    <div class="projectdiv calcdiv hover:bg-purple-900 hover:bg-opacity-60 rounded w-full md:w-80 justify-center items-center flex flex-col justify-center items-center text-center">
+                        <header><img src="${project.image}" alt="${project.alt}" class="w-60 img-fluid mt-6 rounded-md border-2" /></header>
+                        <div class="projparagraph text-base">
                             <h5 class="text-lg">${project.title}<span class="arrowspan">➚</span></h5>
                             <p>${project.description}</p>
                         </div>
@@ -56,12 +57,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function renderProjects() {
         const projectContainer = document.getElementById('projects');
         let projectRowHTML = '';
+        const screenWidth = window.innerWidth;
+        const skillsPerRow = screenWidth < 768 ? 1 : 2;
         projectData.forEach((project, index) => {
-            if (index % 2 === 0) {
+            if (index % skillsPerRow === 0) {
                 projectRowHTML += '<div class="flex justify-center items-center">';
             }
             projectRowHTML += generateProjectHTML(project);
-            if ((index + 1) % 2 === 0 || index === projectData.length - 1) {
+            if ((index + 1) % skillsPerRow === 0 || index === projectData.length - 1) {
                 projectRowHTML += '</div>';
             }
         });

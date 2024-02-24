@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function(){
                         <header><img src="${certificate.image}" alt="${certificate.alt}" class="w-40 h-auto rounded-md border-2"/></header>
                     </div>
                     <div class="w-4/5">
-                        <div class="paragraph text-lg w-2/3">
+                        <div class="certifparagraph text-lg ">
                             <h5 class=" text-lg">${certificate.title} ━ ${certificate.issuer} <span class="arrowspan">➚</span> </h5>
                             ${certificate.desc}
                         </div>
