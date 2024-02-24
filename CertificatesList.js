@@ -1,7 +1,7 @@
 const certificateData = [
     {
         link: "https://coursera.org/verify/XBSMMG8HQYT2",
-        image: "./pics/react-certif.jpg",
+        image: "./pics/react-certif.png",
         title:"React Basics",
         issuer:"Meta",
         desc:"Completed it in April 2023. <br/>It provided me with React Basics knowledge which is what I am using for this website. It covered react hooks, react components, props, events, class and many more react related chapters. Working on taking the react advanced certificate.",
@@ -9,7 +9,7 @@ const certificateData = [
     },
     {
         link: "https://coursera.org/verify/MRJ8CHVWZJKE",
-        image: "./pics/responsive-web-design-certif.jpg",
+        image: "./pics/responsive-web-design-certif.png",
         title:"Responsive Web Design",
         issuer:"University of London",
         desc:"Completed in March 2023.<br/>I learned how to create web page designs that adjust to various screen sizes by utilizing responsive grid layouts. Did some projects with Bootstrap 5",

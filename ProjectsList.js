@@ -3,35 +3,35 @@ document.addEventListener("DOMContentLoaded", function() {
         
         {
             link: "https://github.com/jenniferfk/bmi-calculator-react.git",
-            image: "./pics/bmi-calc-project.jpg",
+            image: "./pics/bmi-calc-project.png",
             alt: "BMI Calculator Project",
             title: "BMI Calculator",
             description: "Made with React."
         },
         {
             link: "https://github.com/jenniferfk/Exam-management.git",
-            image: "./pics/exam-management-project.jpg",
+            image: "./pics/exam-management-project.png",
             alt: "Exam Management System Project",
             title: "Exam Management System",
             description: "Made with Java."
         },
         {
             link: "https://github.com/jenniferfk/shopping-list-withReact.git",
-            image: "./pics/shopping-list-project.jpg",
+            image: "./pics/shopping-list-project.png",
             alt: "Shopping List Project",
             title: "Shopping List",
             description: "Made with React JS."
         },
         {
             link: "https://github.com/jenniferfk/solar-system.git",
-            image: "./pics/solar-system-project.jpg",
+            image: "./pics/solar-system-project.png",
             alt: "Animated Solar System Project",
             title: "Animated Solar System",
             description: "Made with HTML and CSS."
         },
         {
             link: "https://github.com/jenniferfk/loginpage.git",
-            image: "./pics/login-bootstrap-project.jpg",
+            image: "./pics/login-bootstrap-project.png",
             alt: "Login With Bootstrap Project",
             title: "Login With Bootstrap",
             description: "Made with HTML and CSS Bootstrap 5."
