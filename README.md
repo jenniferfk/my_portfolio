@@ -18,6 +18,7 @@ CSS3 & Tailwind
 JavaScript (for interactivity) 
 
 3- Challenges Faced and Solutions
+
 Image File Format Compatibility: Initially, I encountered issues with JPG files not loading correctly in the deployment environment. To address this, I converted the image files to PNG format, ensuring compatibility across different platforms and browsers.
 
 Responsive Design Challenges: Initially, I used Tailwind CSS for styling, but I faced responsiveness issues, especially on smaller devices. To overcome this, I transitioned to writing CSS code manually and incorporated media queries to ensure consistent and effective responsiveness across various screen sizes and devices.
