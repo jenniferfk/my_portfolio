@@ -17,7 +17,7 @@ const certificateData = [
     },
     {
         link: "https://coursera.org/verify/QPLN648KZN64",
-        image: "./pics/versioncontrol-certif.jpg",
+        image: "./pics/versioncontrol-certif.png",
         title:"Version Control",
         issuer:"Meta",
         desc:"Completed in August 2023. <br/>I acquired the skills to utilize a GitHub repository effectively, establish a GitHub repository, implement version control systems, and efficiently navigate and configure settings via the command line.",
