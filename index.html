@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myportfolio.css">
+    <link rel="stylesheet" href="text-anim.css">
+    <link rel="stylesheet" href="mobileView.css">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <script src="NavigationFunction.js" defer></script>
+    <script src="CertificatesList.js" defer></script>
+    <script src="ProjectsList.js" defer></script>
+    <script src="SkillsList.js" defer></script>
+
+</head>
+<body class="font-serif">
+    <nav class="bg-black h-12 fixed w-full top-0 z-10 ">
+
+        <div class="mobile-toggle" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+
+        <div class="flex items-center justify-center items-center mt-3">
+            <div class="githublogo absolute left-8">
+            <a href="https://github.com/jenniferfk" class="">
+                <img src="./pics/github-logo.png" alt="GitHub" width="35" height="35"/>
+              </a>
+            </div>
+        <ul class="text-white flex cursor-pointer"id="menu">
+            <li class="ml-6 mr-4 border-b border-transparent hover:border-white" ><a href="#home" class="active">Home</a></li>
+            <li class="mr-4 border-b border-transparent hover:border-white"><a href="#about">About</a></li>
+            <li class="mr-4 border-b border-transparent hover:border-white"><a href="#education">Education</a></li>
+            <li class="mr-4 border-b border-transparent hover:border-white"><a href="#projects">Projects</a></li>
+            <li class="mr-4 border-b border-transparent hover:border-white"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="downloadbttn absolute right-8">
+            <a href="Jennifer Kamel .CV..pdf" download>
+                <button class="text-purple-900 border-4 rounded-md  border-white bg-white">Download CV</button>
+            </a>
+        </div>
+        
+    </div>
+    </nav>
+    <script>
+        function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("active");
+}
+    </script>
+    <section id="home">
+        <div class="homeintro flex text-white mt-16">
+          <div class="flex justify-center items-center ml-auto">
+            <div class="descdiv text-center">
+                <p class="text-2xl">Welcome to my Portfolio! I'm Jennifer Kamel,</p>
+                <p class="webdev font-bold w-100 text-anim">Web Developer</p>
+                <p class="text-lg mt-5">Technology, for me, is more than just a tool—it's a catalyst for positive change.</br>Here, you'll find a glimpse into my journey, projects, and aspirations.</p>
+          </div>
+        </div>
+        <div class="picdiv ml-auto mr-10">
+            <img src="./pics/self-pic4.png" alt="pict" class="selfpic rounded-3xl mt-4" />
+        </div>
+        </div>
+    </section>
+        <section id="about" class="mb-6">
+            <div class="aboutintro flex items-center">
+                <h2 class="text-purple-500 text-2xl font-bold mr-2 ml-16">About</h2>
+                <hr class="flex-grow border-t-2 mr-5 border-gray-400">
+            </div>
+            <div class="aboutdesc flex text-white justify-center items-center ">
+                <div class="natdob w-1/3"> 
+                    <p>Nationality: Lebanese</p>
+                    <p>Date Of Birth: 18/09/2002</p>
+                </div>
+                <div>
+                    <ul class="list-none">Languages:
+                        <li class="list-disc">Arabic: Native Language, Excellent Spoken & Written.</li>
+                        <li class="list-disc">French: Excellent Spoken & Written.</li>
+                        <li class="list-disc">English: Excellent Spoken & Written.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-white justify-center items-center mt-6 text-xl">
+                <p class="text-center">Skills</p>
+                <div class="skillsContainer text-white justify-center mt-4"></div>
+            </div>
+        </section>
+            <section id="education" class="mb-6">
+                <div class="eduintro flex items-center">
+                    <h2 class="text-purple-500 text-2xl font-bold mr-2 ml-16">Education</h2>
+                    <hr class="flex-grow border-t-2 mr-5 border-gray-400">
+                </div>
+                <div class="text-white justify-center items-center">
+                    <div class="collegediv flex flex-col ml-16">
+                        <div class="text-3xl mr-10 mt-6">College</div>
+                        <div id="college" class="mt-5">
+                            <div>
+                                <header class="years">2021 ━━ Present</header>
+                                <div class="eduparagraph">
+                                    <h5 class="text-lg">Computer Science ━ CNAM Nahr Ibrahim</h5>  
+                                    My coursework has covered a wide range of computer science topics, including Data Structures, Algorithms, Web Development (HTML, CSS, JS, PHP), Java, & Data Base Courses (MySQL, PL/SQL...).
+                                    <br/>These courses have equipped me with a solid understanding of fundamental concepts and practical coding skills.
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <header class="years">2020 ━━ 2021</header>
+                                <div class="eduparagraph">
+                                    <h5 class="text-lg">BioChemistry ━ Lebanese University Fanar</h5>
+                                    Completed 60 credits.<br/> My coursework has encompassed a wide range of subjects, including Cytology, Histology, Anatomy, Genetic, Ecology, Geology, Chemistry, and many more courses.
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+        <div class=" text-white justify-center items-center">
+            <div class="certificatesdiv flex ml-16">
+                <div class="text-3xl mr-8 mt-16">Certificates</div>
+        <div id="certificates" class="mt-16 ml-16">
+        </div>
+            </div></div>
+        </section>
+        
+        <section id="projects" class="text-white mb-6">
+            <div class="projintro flex items-center">
+                <h2 class="text-purple-500 text-2xl font-bold mr-2 ml-16">Projects</h2>
+                <hr class="flex-grow border-t-2 mr-5 border-gray-400">
+            </div>
+        </section>
+        
+        <section id="contact" class="mb-6">
+            <div class="contintro flex items-center">
+                <h2 class="text-purple-500 text-2xl font-bold mr-2 ml-16">Contact</h2>
+                <hr class="flex-grow border-t-2 mr-5 border-gray-400">
+            </div>
+            <div class="text-white flex justify-center items-center text-xl mb-6">
+                Please feel free to reach out to me using the form below. We'll get back to you as soon as possible!
+            </div>
+            <div class="flex justify-center items-center">
+                
+                 <form id="fs-frm" name="simple-contact-form" class="text-white " accept-charset="utf-8" action="https://formspree.io/f/mnqevnln" method="post">
+                    <table >
+                    <fieldset id="fs-frm-inputs">
+                    <tr>
+                        <td><label for="full-name">Full Name</label></td>
+                        <td ><input type="text" name="name" id="full-name" placeholder="First and Last" required="" class="w-full px-4 py-2 text-black text-lg"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email-address">Email Address</label></td>
+                        <td><input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""class="text-black w-full px-4 py-2 text-lg"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message</label></td>
+                        <td><textarea rows="5" name="message" id="message" required=""class="text-black w-full px-4 py-2 text-lg"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit" class="text-black rounded bg-white w-20 hover:text-white hover:bg-purple-900">
+                        </td>
+                    </tr>
+                </fieldset>
+            </table>
+                </form>
+                </div>
+        </section>
+</body>
+
+</html>
