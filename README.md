@@ -1,9 +1,14 @@
 Portfolio Project README 
+
 1- Features
 Home Page: Provides a brief introduction about myself.
+
 About Page: Lists some personal information, my technical skills and proficiencies.
+
 Education Page: Highlights my college education and my certificates.
+
 Projects Page: Displays a selection of my projects with descriptions and links to their repositories.
+
 Contact Page: Offers a form for visitors to get in touch with me.
 
 2- Technologies Used
