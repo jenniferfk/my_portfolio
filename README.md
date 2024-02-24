@@ -12,9 +12,11 @@ Projects Page: Displays a selection of my projects with descriptions and links t
 Contact Page: Offers a form for visitors to get in touch with me.
 
 2- Technologies Used
-Frontend:
+
 HTML5
+
 CSS3 & Tailwind
+
 JavaScript (for interactivity) 
 
 3- Challenges Faced and Solutions
