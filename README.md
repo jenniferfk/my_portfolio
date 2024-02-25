@@ -1,6 +1,9 @@
 Portfolio Project README 
 
+(Find Here a link to my live demo : https://jenniferfk.github.io/my_portfolio/)
+
 1- Features
+
 Home Page: Provides a brief introduction about myself.
 
 About Page: Lists some personal information, my technical skills and proficiencies.
@@ -26,5 +29,4 @@ Image File Format Compatibility: Initially, I encountered issues with JPG files 
 Responsive Design Challenges: Initially, I used Tailwind CSS for styling, but I faced responsiveness issues, especially on smaller devices. To overcome this, I transitioned to writing CSS code manually and incorporated media queries to ensure consistent and effective responsiveness across various screen sizes and devices.
 
 Design Creation: Creating a visually appealing and user-friendly design from scratch was a significant challenge. To tackle this, I researched modern design trends, read some UI/UX rules put online & refined the design based on feedback from other people. By combining creativity with usability considerations, I was able to develop a basic design that effectively communicates my skills and experiences while providing an engaging user experience.
-
-Find Here a link to my live demo : https://jenniferfk.github.io/my_portfolio/ 
+ 
